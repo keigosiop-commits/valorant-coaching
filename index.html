@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gosio | Valorant コーチング</title>
+    <meta name="description" content="最高レディアント・YouTube登録者5万人超のgosioによるValorantコーチング。論理的・個別対応で確実に上達。">
+    <meta property="og:title" content="gosio | Valorant コーチング">
+    <meta property="og:description"
+        content="最高レディアント・YouTube登録者5万人超のgosioによるValorantコーチング。「誰でもイモータルになれる」とは言いません。あなたに合った方法で、確実に成長を。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gosio-coaching.vercel.app">
+    <meta property="og:image" content="gosio-icon.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@fps_user01">
+    <link rel="icon" href="gosio-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+JP:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-text">gosio</span>
+                <span class="logo-tag">coaching</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#philosophy">想い</a></li>
+                <li><a href="#features">特徴</a></li>
+                <li><a href="#curriculum">内容</a></li>
+                <li><a href="#plans">料金</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <a href="#apply" class="nav-cta">申し込む</a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="メニュー">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-nav-links">
+            <li><a href="#philosophy">想い</a></li>
+            <li><a href="#features">特徴</a></li>
+            <li><a href="#curriculum">内容</a></li>
+            <li><a href="#plans">料金</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#apply" class="mobile-cta">申し込む</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-gradient"></div>
+        <div class="hero-particles" id="heroParticles"></div>
+        <div class="container hero-container">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                受講者募集中
+            </div>
+            <h1 class="hero-title">
+                <span class="hero-title-line">ロジックで、</span>
+                <span class="hero-title-line gradient-text">確実に強くなる。</span>
+            </h1>
+            <p class="hero-subtitle">
+                最高レディアント到達・YouTube登録者5万人超<br>
+                <strong>gosio</strong>による、あなた専用のValorantコーチング
+            </p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="54100">0</span>
+                    <span class="stat-label">YouTube登録者</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="374">0</span>
+                    <span class="stat-label">解説動画数</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="16">0</span>
+                    <span class="stat-label">FPS歴（年）</span>
+                </div>
+            </div>
+            <div class="hero-actions">
+                <a href="#apply" class="btn btn-primary btn-lg">
+                    コーチングに申し込む
+                    <svg class="btn-arrow" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </a>
+                <a href="#plans" class="btn btn-outline btn-lg">プラン・料金を見る</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section (from note's sales letter) -->
+    <section class="philosophy" id="philosophy">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Philosophy</span>
+                <h2 class="section-title">gosioの<span class="gradient-text">コーチングへの想い</span></h2>
+            </div>
+            <div class="philosophy-content">
+                <div class="philosophy-block" data-aos>
+                    <p>僕は今までYouTubeで動画を投稿し続けて、周りの友人や知り合いにゲームを教えていく中で<strong>「何人かの人ができていることが、すべての人に同様に当てはまるわけではない」</strong>ということを知りました。
+                    </p>
+                    <p>「人それぞれには向き不向きがある」「才能の有無は存在する」ということを実感しています。</p>
+                </div>
+                <div class="philosophy-block" data-aos>
+                    <p>一般的なゲームのコーチングでは「僕ができたから君も絶対できるよ！」みたいな、自分の1つの体験を元にコーチングを行っているものも存在すると思います。</p>
+                    <p>たとえば自分も、</p>
+                    <blockquote class="philosophy-quote">今すぐ誰でも撃ち合いイモータルになれる！</blockquote>
+                    <p>のようなキャッチコピーを打ち出すこともできます。そっちの方が短期的には応募が集まるでしょうが、やはりどうしても<strong>「誰でも」とは軽く言ってはいけない</strong>気がしていて、こんな地味な感じにしています。
+                    </p>
+                </div>
+                <div class="philosophy-block" data-aos>
+                    <p>だからこそ、僕のコーチングでは一人ひとりの得意・不得意を見極めて、<strong>その人に合った方法で、その人のペースで上達できる指導</strong>を心がけています。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coach Profile -->
+    <section class="coach-profile">
+        <div class="container">
+            <div class="profile-card" data-aos>
+                <div class="profile-header">
+                    <div>
+                        <h3 class="profile-name">gosio</h3>
+                        <p class="profile-tagline">FPS歴16年 / アラサー / 視力0.15 / 週1～2プレイ</p>
+                    </div>
+                    <img src="gosio-icon.png" alt="gosio" class="profile-avatar">
+                </div>
+                <ul class="profile-achievements">
+                    <li>Valorant ソロレディアント到達（500RP前後）</li>
+                    <li>Apexプレデター到達</li>
+                    <li>FPS解説YouTube 登録者5万人超・最大100万再生</li>
+                    <li>解説動画の9割以上が台本なしフリートーク</li>
+                    <li>FPSゲーム全般、要領を掴むのが早く、やり込めばいける（特にサービス開始直後は比較的強い）</li>
+                    <li>YouTubeコメント・DMにてランクアップ・イモータル到達報告を多数（数えきれないほど）いただいています</li>
+                </ul>
+                <p class="profile-personality">
+                    基本的にはゆるふわ系です。よくリアルでもニコニコしていると言われます。アメトーークとか見るタイプの人です。出来る限り、受講者に寄り添ったコーチングをしていきます。</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Strengths Section -->
+    <section class="strengths-section" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Strengths</span>
+                <h2 class="section-title">gosioコーチングの<span class="gradient-text">強み</span></h2>
+            </div>
+            <div class="strengths-content">
+                <div class="strengths-block" data-aos>
+                    <p>FPSゲームには年齢や器用さ・運動神経を含めた、人それぞれの<strong>「得意・不得意」や「成長スピードの差」がある</strong>ということを踏まえられること。</p>
+                    <p>そして、出来る限り論理的かつ、噛み砕いて伝わるように物事を説明できること。感情や個人の経験に流されず、<strong>的確にやるべきことを提案</strong>できます。</p>
+                </div>
+                <div class="strengths-block" data-aos>
+                    <p>登録者数5万人の解説チャンネルの動画も9割以上が台本なし・完全フリートークで成立しています。解説系YouTubeでここまで台本なしで成立させて登録者を伸ばしている人は他にあまりいないのではないでしょうか。
+                    </p>
+                    <p>物事の<strong>「核心」や「攻略法」を掴むこと</strong>、そしてその場で噛み砕いて伝えるのが得意なことが強みです。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Features</span>
+                <h2 class="section-title">gosioコーチングの<span class="gradient-text">3つの特徴</span></h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-aos>
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M16 4L20 12L28 13.5L22 19.5L23.5 28L16 24L8.5 28L10 19.5L4 13.5L12 12L16 4Z"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">論理的なアプローチ</h3>
+                    <p class="feature-desc">感覚や才能に頼らない、誰でも再現できるロジックベースの指導。「なぜそうするのか」を論理的に説明し、本質的な理解を促します。</p>
+                </div>
+                <div class="feature-card" data-aos>
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <circle cx="16" cy="12" r="5" stroke="currentColor" stroke-width="2" />
+                            <path d="M6 28C6 22.4772 10.4772 18 16 18C21.5228 18 26 22.4772 26 28" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">完全個別対応</h3>
+                    <p class="feature-desc">人それぞれの得意・不得意、プレイ頻度に合わせたオーダーメイドの改善プラン。画一的なテンプレート指導はしません。</p>
+                </div>
+                <div class="feature-card" data-aos>
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M4 24V8C4 6.89543 4.89543 6 6 6H26C27.1046 6 28 6.89543 28 8V24"
+                                stroke="currentColor" stroke-width="2" />
+                            <path d="M2 24H30" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                            <path d="M12 12H20M12 16H18" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">チャットサポート無制限</h3>
+                    <p class="feature-desc">コーチング期間中はDiscordチャットで質問し放題。コーチング時間外でも疑問をすぐに解消できます。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curriculum Section (What you can learn) -->
+    <section class="curriculum" id="curriculum">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Curriculum</span>
+                <h2 class="section-title">コーチングで<span class="gradient-text">教えられること</span></h2>
+                <p class="section-desc">才能の有無に関係なく習得できる内容です。ただし成長スピードには個人差があります。</p>
+            </div>
+            <div class="curriculum-grid">
+                <div class="curriculum-card" data-aos>
+                    <div class="curriculum-icon">🎯</div>
+                    <h3>エイム上達（マウス＆キーボード）</h3>
+                    <ul>
+                        <li>エイムの上達に欠かせない腕や手首、指の動かし方・使い方</li>
+                        <li>振り向きや大きな幅のエイムのやり方・練習方法</li>
+                        <li>低感度（ローセンシ）の使いこなし方</li>
+                        <li>年齢や手先の器用さに関わらず上達できるエイム上達方法</li>
+                        <li>モニター位置、机の高さ、デバイス周りの設定や選択に関するアドバイス</li>
+                        <li>エイム上達に効率的な練習方法、練習メニューの提示</li>
+                        <li>練習メニューに対する、本人の実演解説</li>
+                        <li>WEBカメラなどで映してもらってフォーム確認も可能</li>
+                    </ul>
+                </div>
+                <div class="curriculum-card" data-aos>
+                    <div class="curriculum-icon">⚔️</div>
+                    <h3>ヴァロラント特有の撃ち合い要素</h3>
+                    <ul>
+                        <li>2点撃ち〜フルオートの使い分け</li>
+                        <li>2点撃ちのステップの入れ方・練習方法</li>
+                        <li>リコイルコントロールの練習方法</li>
+                        <li>ヴァロラントで必要なエイム、横軸での合わせる感覚の掴み方</li>
+                        <li>プリエイムの練習方法・具体例・解説動画</li>
+                        <li>強いピークの仕方、しゃがみ・オーバーピークの考え方</li>
+                        <li>アングル・情報・武器などの様々なアドバンテージの使い方</li>
+                        <li>勝率の高い撃ち合いに持ち込む考え方</li>
+                        <li>実戦形式での撃ち合い・ピーク練習</li>
+                    </ul>
+                </div>
+                <div class="curriculum-card" data-aos>
+                    <div class="curriculum-icon">🗺️</div>
+                    <h3>立ち回り</h3>
+                    <ul>
+                        <li>特に少人数戦の「負けない立ち回り」には自信があります</li>
+                        <li>ランクマッチでのエリアコントロール、勝ち筋の引き方</li>
+                        <li>勝率に大きく影響する「設置周りの駆け引き」</li>
+                        <li>強い立ち位置・弱い立ち位置、ポジショニング</li>
+                        <li>「そのランク帯のセオリー」に合った勝ち方の指南</li>
+                        <li>上級者やトッププロの立ち回りを真似てコピーするための情報の仕入れ方</li>
+                        <li>その試合が「撃ち合い」で負けたか？「立ち回り」で負けたか？の教示</li>
+                        <li>キャラクターごとの立ち位置や立ち回りの指導（基本的なキャラクターは全キャラ対応）</li>
+                        <li>メンタル面のフォロー</li>
+                        <li>必要に応じてマップ攻略などの教材プレゼント</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target Audience -->
+    <section class="audience">
+        <div class="container">
+            <div class="audience-grid">
+                <div class="audience-card audience-yes" data-aos>
+                    <h3>✅ こんな人に向いています</h3>
+                    <ul>
+                        <li>毎日プレイしているのにランクが上がらず悩んでいる</li>
+                        <li>エイムや立ち回りを本気で改善したい（アイアン〜イモータル）</li>
+                        <li>独学よりも効率的な方法が知りたい</li>
+                        <li>どんなFPSでも上位に行けるスキルを身につけたい</li>
+                        <li>時間は少ないけど効率的に上手くなりたい社会人</li>
+                    </ul>
+                </div>
+                <div class="audience-card audience-no" data-aos>
+                    <h3>❌ 向いていない人</h3>
+                    <ul>
+                        <li>努力なしで勝手に強くなることを求めている</li>
+                        <li>魔法のような方法を求めている</li>
+                        <li>弱点の指摘を受け止められない</li>
+                        <li>スケジュールを守る気がない</li>
+                        <li>途中で諦めてしまう</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="results">
+        <div class="container">
+            <div class="results-banner">
+                <div class="results-content">
+                    <h2 class="results-title">受講者の成果</h2>
+                    <p class="results-desc">平均して
+                        <strong>2〜4ヶ月で1Tier前後のランクアップ</strong>、最高ランク更新を達成する方も多数。YouTubeコメントやDMでの上達報告は数えきれないほどいただいています。
+                    </p>
+                </div>
+                <div class="results-badges">
+                    <div class="result-badge">
+                        <span class="result-number">2-4</span>
+                        <span class="result-unit">ヶ月</span>
+                        <span class="result-label">平均成長期間</span>
+                    </div>
+                    <div class="result-badge">
+                        <span class="result-number">1+</span>
+                        <span class="result-unit">Tier</span>
+                        <span class="result-label">平均ランクアップ</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flow Section -->
+    <section class="flow" id="flow">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Process</span>
+                <h2 class="section-title">コーチングの<span class="gradient-text">流れ</span></h2>
+            </div>
+            <div class="flow-timeline">
+                <div class="flow-step" data-aos>
+                    <div class="flow-step-number">01</div>
+                    <div class="flow-step-content">
+                        <h3>お申し込み</h3>
+                        <p>このページの申込フォームからご連絡ください。希望コース・現在のランク帯をお伝えいただくとスムーズです。</p>
+                    </div>
+                </div>
+                <div class="flow-step" data-aos>
+                    <div class="flow-step-number">02</div>
+                    <div class="flow-step-content">
+                        <h3>初回面談 & プロフィール作成</h3>
+                        <p>あなたのプレイスタイル、目標、課題をヒアリング。現状を正確に把握した上で、最適な改善プランを設計します。</p>
+                    </div>
+                </div>
+                <div class="flow-step" data-aos>
+                    <div class="flow-step-number">03</div>
+                    <div class="flow-step-content">
+                        <h3>録画リプレイ分析</h3>
+                        <p>あなたの試合録画を客観的に分析。自分では気づけない弱点や改善ポイントを明確にします。</p>
+                    </div>
+                </div>
+                <div class="flow-step" data-aos>
+                    <div class="flow-step-number">04</div>
+                    <div class="flow-step-content">
+                        <h3>実践トレーニング & 課題</h3>
+                        <p>カスタムゲームでの画面共有指導、ランクマッチのリアルタイムフィードバック、エイム練習の課題提出など、個別にカスタマイズしたトレーニングを実施。</p>
+                    </div>
+                </div>
+                <div class="flow-step" data-aos>
+                    <div class="flow-step-number">05</div>
+                    <div class="flow-step-content">
+                        <h3>継続的なフィードバック</h3>
+                        <p>毎回の振り返りと次ステップの提示。Discordチャットでの質問もいつでもOK。長期的な成長をサポートし続けます。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plans Section -->
+    <section class="plans" id="plans">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Plans & Pricing</span>
+                <h2 class="section-title"><span class="gradient-text">プラン・料金</span></h2>
+            </div>
+
+            <!-- Pricing Rationale -->
+            <div class="pricing-rationale" data-aos>
+                <p>現在の自分のコーチングはデフォルトで<strong>3〜6ヶ月</strong>と、やや長期にわたるコーチングとなります。</p>
+                <p>よくある単発のコーチングですと、「教えました。あとは頑張ってね。」という現象が起きます。でも、コーチングとは本来は<strong>「受け始めてからが本番」</strong>なはずなんです。
+                </p>
+                <p>フィードバックや取り組んでいく方向性を受けて、そこからどう頑張っていくか？ その頑張り方は間違いなかったか？ 次なる課題が出てきた時にどう解決するか？
+                    それを提案するのがコーチングだと思うんです。
+                </p>
+            </div>
+
+            <!-- Intensity Plans -->
+            <div class="intensity-plans">
+                <h3 class="subsection-title">コーチング強度プラン</h3>
+                <p class="subsection-desc">どのコースでも、以下の3つの強度から選べます（途中変更OK・料金は共通）</p>
+                <div class="intensity-grid">
+                    <div class="intensity-card">
+                        <div class="intensity-emoji">⚡</div>
+                        <h4>通常運行</h4>
+                        <p>バランスの取れた一般的なコーチング。課題あり。</p>
+                    </div>
+                    <div class="intensity-card">
+                        <div class="intensity-emoji">🔥</div>
+                        <h4>スパルタ</h4>
+                        <p>課題多め・結果にコミット。プレイ時間を増やせる方向け。</p>
+                    </div>
+                    <div class="intensity-card">
+                        <div class="intensity-emoji">☕</div>
+                        <h4>ゆるゆる</h4>
+                        <p>楽しく過ごせることを優先。ゲームを楽しみたい方に。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pricing Cards -->
+            <h3 class="subsection-title">料金コース</h3>
+            <p class="subsection-desc">ギター教室や英会話レッスンみたいなイメージの習い事だと思ってもらえれば</p>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="pricing-name">月額コース</h3>
+                        <p class="pricing-tagline">まずはお試しで始めたい方に</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price-amount">¥15,000</span>
+                        <span class="price-period">/ 月</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>月2回 × 各1.5時間のコーチング</li>
+                        <li>1回に3時間としてまとめることも可</li>
+                        <li>1ヶ月ごとにキャンセル可能</li>
+                        <li>チャットサポート無制限</li>
+                        <li>宿題・フィードバックあり</li>
+                    </ul>
+                    <a href="#apply" class="btn btn-outline btn-block">このコースで申し込む</a>
+                </div>
+
+                <div class="pricing-card pricing-card-featured">
+                    <div class="pricing-badge">おすすめ</div>
+                    <div class="pricing-header">
+                        <h3 class="pricing-name">基本6回コース</h3>
+                        <p class="pricing-tagline">しっかり成長を実感したい方に</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price-amount">¥39,800</span>
+                        <span class="price-period">/ 全6回</span>
+                    </div>
+                    <div class="pricing-savings">月額コースより合計約 ¥5,000 お得</div>
+                    <ul class="pricing-features">
+                        <li>1.5時間 × 全6回</li>
+                        <li>月1回ペースなら半年で ¥39,800</li>
+                        <li>月あたり実質 ¥6,633〜</li>
+                        <li>チャットサポート無制限</li>
+                        <li>宿題・フィードバックあり</li>
+                    </ul>
+                    <a href="#apply" class="btn btn-primary btn-block">このコースで申し込む</a>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="pricing-name">チャレンジ</h3>
+                        <p class="pricing-tagline">速度を求める方に</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price-amount">¥78,000</span>
+                        <span class="price-period">/ 全12回</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>基本コースの頻度2倍</li>
+                        <li>月3〜4回 × 3〜4ヶ月</li>
+                        <li>短期集中で最大効率</li>
+                        <li>チャットサポート無制限</li>
+                        <li>宿題・フィードバックあり</li>
+                    </ul>
+                    <a href="#apply" class="btn btn-outline btn-block">このコースで申し込む</a>
+                </div>
+            </div>
+
+            <div class="pricing-note">
+                <p>※ 上記に加え、マンツーマン付きっきりコース（要相談）もございます。<br>
+                    ※ 決済方法: クレジットカード (Stripe) / PayPay / 銀行振込<br>
+                    <strong>※
+                        すべてのプランにおいて、現在の価格が過去最安値です。既に1回値上げを行っており、今後も値上げの可能性があります。値下がりすることは一切ありません。</strong>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">FAQ</span>
+                <h2 class="section-title">よくある<span class="gradient-text">質問</span></h2>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>YouTubeの動画の内容とどう違うの？</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>動画は「多くの再生数が見込める大衆向けビデオ」です。コーチングは個人に合わせた「パーソナルトレーニング」。サポートの有無、課題の有無、進捗の確認、内容の詳しさ、個人に合わせているかどうかが主な違いです。YouTubeで動画化していない内容や、最新のやり方もたくさんあります。
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Valorant以外のゲームでも大丈夫？</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>基本的にはValorantをオススメしますが、FPS歴16年の経験があるため、FPSゲーム全般のエイムや立ち回りの相談も対応可能です。エイム練習ソフトのみのコーチングも可能です。詳しくはDMでご相談ください。
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>毎日の時間があまり取れないですが、大丈夫ですか？</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>もちろん大丈夫です！その人それぞれのペースにあった方法を指導します。社会人の方は「お金はあるけど時間はない…」という方も多いはず。そんな人は「効率」で勝負するしかありません。そのためのコーチングです。月1回指導の方もいます。
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>途中でプランの変更はできますか？</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>はい、コーチング強度プラン（通常運行・スパルタ・ゆるゆる）はいつでも変更可能です。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>支払い方法は何がありますか？</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>クレジットカード（Stripe）、PayPay、銀行振込に対応しています。2分割程度の分割払いも可能です。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>チャットサポートはどの程度対応してもらえますか？</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>コーチング期間中はどれだけ質問してもらってもOKです。ただし、返信はこちらの空いたタイミングになります。丸一日チャットし続けるような対応は難しいので、あくまでオマケ程度に考えてください。それでもかなりお得だと思います。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apply Section -->
+    <section class="apply" id="apply">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Apply</span>
+                <h2 class="section-title">コーチングに<span class="gradient-text">申し込む</span></h2>
+                <p class="section-desc">以下のフォームからお申し込みください。内容確認後、Discordでご連絡いたします。</p>
+            </div>
+            <div class="apply-container">
+                <form class="apply-form" id="applyForm">
+                    <div class="form-group">
+                        <label for="name">お名前（ゲーム内ネーム可）</label>
+                        <input type="text" id="name" name="name" required placeholder="例: gosio">
+                    </div>
+                    <div class="form-group">
+                        <label for="discordId">Discord ID (必須)</label>
+                        <input type="text" id="discordId" name="discordId" required placeholder="例: gosio">
+                    </div>
+                    <div class="form-group">
+                        <label for="rank">現在のランク帯</label>
+                        <select id="rank" name="rank" required>
+                            <option value="" disabled selected>選択してください</option>
+                            <option value="iron">アイアン</option>
+                            <option value="bronze">ブロンズ</option>
+                            <option value="silver">シルバー</option>
+                            <option value="gold">ゴールド</option>
+                            <option value="platinum">プラチナ</option>
+                            <option value="diamond">ダイヤモンド</option>
+                            <option value="ascendant">アセンダント</option>
+                            <option value="immortal">イモータル</option>
+                            <option value="radiant">レディアント</option>
+                            <option value="unranked">未ランク / 不明</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="course">希望コース</label>
+                        <select id="course" name="course" required>
+                            <option value="" disabled selected>選択してください</option>
+                            <option value="monthly">月額コース（¥15,000/月）</option>
+                            <option value="basic6">基本6回コース（¥39,800）</option>
+                            <option value="challenge">チャレンジコース（¥78,000）</option>
+                            <option value="custom">マンツーマン付きっきり（要相談）</option>
+                            <option value="undecided">まだ決めていない / 相談したい</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="intensity">希望の強度プラン</label>
+                        <select id="intensity" name="intensity">
+                            <option value="" disabled selected>選択してください</option>
+                            <option value="normal">通常運行</option>
+                            <option value="sparta">スパルタ</option>
+                            <option value="relaxed">ゆるゆる</option>
+                            <option value="undecided">まだ決めていない</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>初回希望日時（第3希望まで入力）</label>
+                        <p class="form-note">※初回コーチングは1.5時間程度かかります。時間に余裕のある日時を指定してください。</p>
+
+                        <div class="schedule-rows">
+                            <!-- Candidate 1 -->
+                            <div class="schedule-item">
+                                <label class="sub-label">第1候補</label>
+                                <div class="schedule-inputs">
+                                    <input type="date" name="date1" required>
+                                    <div class="time-range">
+                                        <input type="time" name="timeStart1" required>
+                                        <span>～</span>
+                                        <input type="time" name="timeEnd1" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Candidate 2 -->
+                            <div class="schedule-item">
+                                <label class="sub-label">第2候補</label>
+                                <div class="schedule-inputs">
+                                    <input type="date" name="date2" required>
+                                    <div class="time-range">
+                                        <input type="time" name="timeStart2" required>
+                                        <span>～</span>
+                                        <input type="time" name="timeEnd2" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Candidate 3 -->
+                            <div class="schedule-item">
+                                <label class="sub-label">第3候補</label>
+                                <div class="schedule-inputs">
+                                    <input type="date" name="date3" required>
+                                    <div class="time-range">
+                                        <input type="time" name="timeStart3" required>
+                                        <span>～</span>
+                                        <input type="time" name="timeEnd3" required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">その他ご質問・メッセージ（任意）</label>
+                        <textarea id="message" name="message" rows="4"
+                            placeholder="目標ランク、プレイ頻度、気になること等をご自由にお書きください"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg btn-block" id="submitBtn">
+                        申し込みを送信する
+                        <svg class="btn-arrow" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <span class="logo-text">gosio</span>
+                <span class="logo-tag">coaching</span>
+            </div>
+            <div class="footer-links">
+                <a href="https://www.youtube.com/@gosiofps" target="_blank" rel="noopener noreferrer">YouTube</a>
+                <a href="https://x.com/fps_user01" target="_blank" rel="noopener noreferrer">X (Twitter)</a>
+                <a href="https://www.twitch.tv/gosiofps" target="_blank" rel="noopener noreferrer">Twitch</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 gosio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
