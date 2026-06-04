@@ -168,7 +168,7 @@ function initForm() {
     // ================================================
     // ★ Discord Webhook URL をここに設定してください ★
     // ================================================
-    const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1473819922378260551/a2sGx1DJjerrGDqxc2L1vZ06gjk2-icR6QoKHQo73rpTQihyzSNV40-GXmURWyCgMMVS';
+    const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1512140470120353914/lecbVH6b-Fk9JPe7u_G4ejKopLQnfYZwB08LB6lvgOdJff1s6Z_mS0l6900cMI9N6jVJ';
 
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
