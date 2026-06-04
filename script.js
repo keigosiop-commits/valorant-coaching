@@ -224,27 +224,19 @@ function initForm() {
             timestamp: new Date().toISOString(),
         };
 
+const GAS_URL = 'https://script.google.com/macros/s/AKfycbyyb7I4RDUtInmW4aGLCewzBZlZV6s05XIkE7xLGYlZPq9kzM9w83HkZQgE_Sn-Tjkr/exec';
         let success = false;
 
-        if (DISCORD_WEBHOOK_URL) {
-            try {
-                const response = await fetch(DISCORD_WEBHOOK_URL, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({
-                        content: '@here 新しいコーチング申し込みが届きました！',
-                        embeds: [embed],
-                    }),
-                });
-                success = response.ok;
-            } catch (err) {
-                console.error('Webhook error:', err);
-                success = false;
-            }
-        } else {
-            // No webhook configured - just log and show success for demo
-            console.log('Form submission (no webhook configured):', formData);
+        try {
+            const response = await fetch(GAS_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'text/plain' }, 
+                body: JSON.stringify(formData)
+            });
             success = true;
+        } catch (err) {
+            console.error('送信エラー:', err);
+            success = false;
         }
 
         if (success) {
